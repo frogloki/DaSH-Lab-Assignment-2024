@@ -4,7 +4,7 @@ import time
 from groq import Groq
 
 client = Groq(
-    api_key=os.environ.get("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"),
+    api_key=os.environ.get(""),
 )
 
 def get_response(prompt):
